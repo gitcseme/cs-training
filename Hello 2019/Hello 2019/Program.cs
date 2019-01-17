@@ -10,7 +10,12 @@ namespace Hello_2019
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello cruel world.");
+            greet("Hello meaw meaw......");
+        }
+
+        public static void greet (string msg)
+        {
+            Console.WriteLine(msg);
         }
     }
 }
