@@ -24,9 +24,14 @@ public class Solver
     protected static TextWriter writer;
     static void Main()
     {
+        /* File read */
         //reader = new StreamReader("..\\..\\input.txt");
-        reader = new StreamReader(@"C:\Users\shuvo\Desktop\curCode\inp.txt");
-        writer = Console.Out;
+        //reader = new StreamReader(@"C:\Users\shuvo\Desktop\curCode\inp.txt");
+        //writer = Console.Out;
+
+        /* Console read write */
+        reader = new StreamReader(Console.OpenStandardInput());
+        writer = new StreamWriter(Console.OpenStandardOutput());
 
         try
         {
