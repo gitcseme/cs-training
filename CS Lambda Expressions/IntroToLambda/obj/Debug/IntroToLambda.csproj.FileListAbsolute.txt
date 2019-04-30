@@ -1,0 +1,7 @@
+C:\Users\shuvo\source\repos\CS Lambda Expressions\IntroToLambda\bin\Debug\IntroToLambda.exe.config
+C:\Users\shuvo\source\repos\CS Lambda Expressions\IntroToLambda\bin\Debug\IntroToLambda.exe
+C:\Users\shuvo\source\repos\CS Lambda Expressions\IntroToLambda\bin\Debug\IntroToLambda.pdb
+C:\Users\shuvo\source\repos\CS Lambda Expressions\IntroToLambda\obj\Debug\IntroToLambda.csprojAssemblyReference.cache
+C:\Users\shuvo\source\repos\CS Lambda Expressions\IntroToLambda\obj\Debug\IntroToLambda.csproj.CoreCompileInputs.cache
+C:\Users\shuvo\source\repos\CS Lambda Expressions\IntroToLambda\obj\Debug\IntroToLambda.exe
+C:\Users\shuvo\source\repos\CS Lambda Expressions\IntroToLambda\obj\Debug\IntroToLambda.pdb
