@@ -1,0 +1,11 @@
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\bin\Debug\netcoreapp2.2\PagingUsingLINQ.deps.json
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\bin\Debug\netcoreapp2.2\PagingUsingLINQ.runtimeconfig.json
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\bin\Debug\netcoreapp2.2\PagingUsingLINQ.runtimeconfig.dev.json
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\bin\Debug\netcoreapp2.2\PagingUsingLINQ.dll
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\bin\Debug\netcoreapp2.2\PagingUsingLINQ.pdb
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\obj\Debug\netcoreapp2.2\PagingUsingLINQ.csprojAssemblyReference.cache
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\obj\Debug\netcoreapp2.2\PagingUsingLINQ.csproj.CoreCompileInputs.cache
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\obj\Debug\netcoreapp2.2\PagingUsingLINQ.AssemblyInfoInputs.cache
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\obj\Debug\netcoreapp2.2\PagingUsingLINQ.AssemblyInfo.cs
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\obj\Debug\netcoreapp2.2\PagingUsingLINQ.dll
+C:\Users\shuvo\source\repos\EF Core Tutorials\PagingUsingLINQ\obj\Debug\netcoreapp2.2\PagingUsingLINQ.pdb

@@ -1,0 +1,11 @@
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\bin\Debug\netcoreapp2.2\LINQ_In_CSharp.deps.json
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\bin\Debug\netcoreapp2.2\LINQ_In_CSharp.runtimeconfig.json
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\bin\Debug\netcoreapp2.2\LINQ_In_CSharp.runtimeconfig.dev.json
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\bin\Debug\netcoreapp2.2\LINQ_In_CSharp.dll
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\bin\Debug\netcoreapp2.2\LINQ_In_CSharp.pdb
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\obj\Debug\netcoreapp2.2\LINQ_In_CSharp.csprojAssemblyReference.cache
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\obj\Debug\netcoreapp2.2\LINQ_In_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\obj\Debug\netcoreapp2.2\LINQ_In_CSharp.AssemblyInfoInputs.cache
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\obj\Debug\netcoreapp2.2\LINQ_In_CSharp.AssemblyInfo.cs
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\obj\Debug\netcoreapp2.2\LINQ_In_CSharp.dll
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ_In_CSharp\obj\Debug\netcoreapp2.2\LINQ_In_CSharp.pdb

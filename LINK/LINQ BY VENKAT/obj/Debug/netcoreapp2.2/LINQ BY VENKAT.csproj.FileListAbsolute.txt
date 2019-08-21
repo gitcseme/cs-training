@@ -1,0 +1,11 @@
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\bin\Debug\netcoreapp2.2\LINQ BY VENKAT.deps.json
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\bin\Debug\netcoreapp2.2\LINQ BY VENKAT.runtimeconfig.json
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\bin\Debug\netcoreapp2.2\LINQ BY VENKAT.runtimeconfig.dev.json
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\bin\Debug\netcoreapp2.2\LINQ BY VENKAT.dll
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\bin\Debug\netcoreapp2.2\LINQ BY VENKAT.pdb
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\obj\Debug\netcoreapp2.2\LINQ BY VENKAT.csprojAssemblyReference.cache
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\obj\Debug\netcoreapp2.2\LINQ BY VENKAT.csproj.CoreCompileInputs.cache
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\obj\Debug\netcoreapp2.2\LINQ BY VENKAT.AssemblyInfoInputs.cache
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\obj\Debug\netcoreapp2.2\LINQ BY VENKAT.AssemblyInfo.cs
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\obj\Debug\netcoreapp2.2\LINQ BY VENKAT.dll
+C:\Users\shuvo\source\repos\EF Core Tutorials\LINQ BY VENKAT\obj\Debug\netcoreapp2.2\LINQ BY VENKAT.pdb
