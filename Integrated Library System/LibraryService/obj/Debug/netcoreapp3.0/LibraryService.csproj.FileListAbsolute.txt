@@ -1,0 +1,11 @@
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\bin\Debug\netcoreapp3.0\LibraryService.deps.json
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\bin\Debug\netcoreapp3.0\LibraryService.dll
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\bin\Debug\netcoreapp3.0\LibraryService.pdb
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\bin\Debug\netcoreapp3.0\LibraryData.dll
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\bin\Debug\netcoreapp3.0\LibraryData.pdb
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\obj\Debug\netcoreapp3.0\LibraryService.csprojAssemblyReference.cache
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\obj\Debug\netcoreapp3.0\LibraryService.AssemblyInfoInputs.cache
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\obj\Debug\netcoreapp3.0\LibraryService.AssemblyInfo.cs
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\obj\Debug\netcoreapp3.0\LibraryService.csproj.CopyComplete
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\obj\Debug\netcoreapp3.0\LibraryService.dll
+G:\git\Integrated-Library-System\Integrated Library System\LibraryService\obj\Debug\netcoreapp3.0\LibraryService.pdb
