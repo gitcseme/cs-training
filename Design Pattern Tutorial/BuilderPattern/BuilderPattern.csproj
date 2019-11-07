@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{338B0333-0E89-4E46-8E99-248D79198948}</ProjectGuid>
+    <ProjectGuid>{EDFB1580-5A14-4F83-8F04-DDE29E6CA583}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SOLID</RootNamespace>
-    <AssemblyName>SOLID</AssemblyName>
+    <RootNamespace>BuilderPattern</RootNamespace>
+    <AssemblyName>BuilderPattern</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DIP.cs" />
-    <Compile Include="ISP.cs" />
-    <Compile Include="LSP.cs" />
-    <Compile Include="OCP.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SRP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
