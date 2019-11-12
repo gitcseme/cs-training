@@ -7,6 +7,7 @@ using IntroductionToNetCore.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -277,19 +278,88 @@ namespace IntroductionToNetCore.Controllers
             }
             else
             {
-                var result = await RoleManager.DeleteAsync(role);
-                if (result.Succeeded)
+                try
                 {
-                    return RedirectToAction("ListRoles");
-                }
-                foreach (var error in result.Errors)
-                {
-                    ModelState.AddModelError("", error.Description);
-                }
+                    var result = await RoleManager.DeleteAsync(role);
+                    if (result.Succeeded)
+                    {
+                        return RedirectToAction("ListRoles");
+                    }
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
 
-                return View("ListRoles");
+                    return View("ListRoles");
+                }
+                catch (DbUpdateException ex)
+                {
+                    ViewBag.ErrorTitle = $"{role.Name} role is in use";
+                    ViewBag.ErrorMessage = $"{role.Name} role cannot be deleted as there are users" +
+                        $" in this role. If you want to delete this role please remove all users from" +
+                        $" this role and then try again to delete.";
+
+                    return View("Error");
+                }
             }
 
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ManageUserRoles(string userId)
+        {
+            ViewBag.userId = userId;
+            var user = await UserManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = $"User with Id = {userId} can't be found";
+                return View("NotFound");
+            }
+
+            List<UserRolesViewModel> model = new List<UserRolesViewModel>();
+            foreach (var role in RoleManager.Roles)
+            {
+                var userRolesViewModel = new UserRolesViewModel
+                {
+                    RoleId = role.Id,
+                    RoleName = role.Name
+                };
+                userRolesViewModel.IsSelected = await UserManager.IsInRoleAsync(user, role.Name) ? true : false;
+
+                model.Add(userRolesViewModel);
+            }
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ManageUserRoles(List<UserRolesViewModel> model, string userId)
+        {
+            var user = await UserManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = $"User with Id = {userId} can't be found";
+                return View("NotFound");
+            }
+
+            var roles = await UserManager.GetRolesAsync(user);
+            var result = await UserManager.RemoveFromRolesAsync(user, roles);
+            if (!result.Succeeded)
+            {
+                ModelState.AddModelError("", "Cannot remove user existing roles");
+                return View(model);
+            }
+
+            result = await UserManager.AddToRolesAsync(user,
+                model.Where(rm => rm.IsSelected).Select(x => x.RoleName));
+
+            if (!result.Succeeded)
+            {
+                ModelState.AddModelError("", "Cannot add selected roles to user");
+                return View(model);
+            }
+
+            return RedirectToAction("EditUser", new { Id = userId });
         }
     }
 }

@@ -1,4 +1,18 @@
-﻿<H1>AN ERROR OCCURED</H1>
+﻿@if (ViewBag.ErrorTitle == null)
+{
+    <h3>
+        An error occur while processing your request
+    </h3>
+    <h5>Please contact us if required on kshuvo96@gmail.com</h5>
+}
+else 
+{
+    <h1 class="text-danger">@ViewBag.ErrorTitle</h1>  
+    <h6 class="text-danger">@ViewBag.ErrorMessage</h6>
+}
+
+
+@*<H1>AN ERROR OCCURED</H1>
 <h3>Please contact us if required on kshuvo96@gmail.com</h3>
 <hr />
 
@@ -16,4 +30,4 @@
 <div class="alert alert-danger">
     <h5>Exception Stack</h5>
     <p>@ViewBag.Stacktrace</p>
-</div>
+</div>*@
