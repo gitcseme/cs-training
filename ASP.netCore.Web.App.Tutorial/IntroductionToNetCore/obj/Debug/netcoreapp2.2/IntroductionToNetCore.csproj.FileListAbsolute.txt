@@ -58,7 +58,6 @@ G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\bin\Debug\
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\bin\Debug\netcoreapp2.2\IntroductionToNetCore.pdb
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\bin\Debug\netcoreapp2.2\IntroductionToNetCore.Views.dll
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\bin\Debug\netcoreapp2.2\IntroductionToNetCore.Views.pdb
-G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\IntroductionToNetCore.csprojAssemblyReference.cache
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\IntroductionToNetCore.RazorAssemblyInfo.cache
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\IntroductionToNetCore.RazorAssemblyInfo.cs
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\IntroductionToNetCore.AssemblyInfoInputs.cache
@@ -97,3 +96,4 @@ G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\IntroductionToNetCore.pdb
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\IntroductionToNetCore.csproj.CopyComplete
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ManageUserRoles.cshtml.g.cs
+G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ManageUserClaims.cshtml.g.cs

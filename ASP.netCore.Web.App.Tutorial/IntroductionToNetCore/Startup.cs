@@ -48,6 +48,13 @@ namespace IntroductionToNetCore
                                 .Build();
                 options.Filters.Add(new AuthorizeFilter(policy));
             });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("DeleteRolePolicy",
+                    policy => policy.RequireClaim("Delete Role"));
+            });
+
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
         }
 
