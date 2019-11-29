@@ -14,7 +14,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IntroductionToNetCore.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
+    [Authorize(Policy = "AdminRolePolicy")]
     public class AdministrationController : Controller
     {
         public AdministrationController(RoleManager<IdentityRole> roleManager, UserManager<ApplicationUser> userManager)
@@ -69,6 +70,7 @@ namespace IntroductionToNetCore.Controllers
         }
 
         [HttpGet]
+        [Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> EditRole(string id)
         {
             var role = await RoleManager.FindByIdAsync(id);
@@ -96,6 +98,7 @@ namespace IntroductionToNetCore.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy = "EditRolePolicy")]
         public async Task<IActionResult> EditRole(EditRoleViewModel model)
         {
             var role = await RoleManager.FindByIdAsync(model.Id);
