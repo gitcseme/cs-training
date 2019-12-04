@@ -1,0 +1,16 @@
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\capitals.txt
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.exe
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.csprojAssemblyReference.cache
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.AssemblyInfoInputs.cache
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.AssemblyInfo.cs
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\MoreLinq.dll
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.csproj.CopyComplete
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\Autofac.dll
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.deps.json
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.runtimeconfig.json
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.runtimeconfig.dev.json
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.dll
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.pdb
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\nunit.framework.dll
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.dll
+E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.pdb
