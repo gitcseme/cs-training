@@ -4921,11 +4921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\git\\Integrated-Library-System\\Integrated Library System\\Library\\Library.csproj",
+      "projectUniqueName": "G:\\git\\cs-training\\Integrated Library System\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "G:\\git\\Integrated-Library-System\\Integrated Library System\\Library\\Library.csproj",
+      "projectPath": "G:\\git\\cs-training\\Integrated Library System\\Library\\Library.csproj",
       "packagesPath": "C:\\Users\\shuvo\\.nuget\\packages\\",
-      "outputPath": "G:\\git\\Integrated-Library-System\\Integrated Library System\\Library\\obj\\",
+      "outputPath": "G:\\git\\cs-training\\Integrated Library System\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4941,11 +4941,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "G:\\git\\Integrated-Library-System\\Integrated Library System\\LibraryData\\LibraryData.csproj": {
-              "projectPath": "G:\\git\\Integrated-Library-System\\Integrated Library System\\LibraryData\\LibraryData.csproj"
+            "G:\\git\\cs-training\\Integrated Library System\\LibraryData\\LibraryData.csproj": {
+              "projectPath": "G:\\git\\cs-training\\Integrated Library System\\LibraryData\\LibraryData.csproj"
             },
-            "G:\\git\\Integrated-Library-System\\Integrated Library System\\LibraryService\\LibraryService.csproj": {
-              "projectPath": "G:\\git\\Integrated-Library-System\\Integrated Library System\\LibraryService\\LibraryService.csproj"
+            "G:\\git\\cs-training\\Integrated Library System\\LibraryService\\LibraryService.csproj": {
+              "projectPath": "G:\\git\\cs-training\\Integrated Library System\\LibraryService\\LibraryService.csproj"
             }
           }
         }

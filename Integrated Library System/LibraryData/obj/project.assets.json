@@ -4917,11 +4917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\git\\Integrated-Library-System\\Integrated Library System\\LibraryData\\LibraryData.csproj",
+      "projectUniqueName": "G:\\git\\cs-training\\Integrated Library System\\LibraryData\\LibraryData.csproj",
       "projectName": "LibraryData",
-      "projectPath": "G:\\git\\Integrated-Library-System\\Integrated Library System\\LibraryData\\LibraryData.csproj",
+      "projectPath": "G:\\git\\cs-training\\Integrated Library System\\LibraryData\\LibraryData.csproj",
       "packagesPath": "C:\\Users\\shuvo\\.nuget\\packages\\",
-      "outputPath": "G:\\git\\Integrated-Library-System\\Integrated Library System\\LibraryData\\obj\\",
+      "outputPath": "G:\\git\\cs-training\\Integrated Library System\\LibraryData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
