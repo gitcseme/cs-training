@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{7D54B2E9-5976-4DF7-8DE5-A6E84F433A43}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{321C64AB-F9B6-4E82-8410-6ED89E08DD2D}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{4D26025E-84F3-4C93-BBB9-719B93E31A82}"
+>>>>>>> 87d383a70da26a1a94e09c4ea39b0f937c57cd7c
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +33,17 @@ Global
 		{7D54B2E9-5976-4DF7-8DE5-A6E84F433A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D54B2E9-5976-4DF7-8DE5-A6E84F433A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D54B2E9-5976-4DF7-8DE5-A6E84F433A43}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{321C64AB-F9B6-4E82-8410-6ED89E08DD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{321C64AB-F9B6-4E82-8410-6ED89E08DD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{321C64AB-F9B6-4E82-8410-6ED89E08DD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{321C64AB-F9B6-4E82-8410-6ED89E08DD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{4D26025E-84F3-4C93-BBB9-719B93E31A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D26025E-84F3-4C93-BBB9-719B93E31A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D26025E-84F3-4C93-BBB9-719B93E31A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D26025E-84F3-4C93-BBB9-719B93E31A82}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 87d383a70da26a1a94e09c4ea39b0f937c57cd7c
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
