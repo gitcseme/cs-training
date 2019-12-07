@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\C# training\\Design pattern and OOP\\git repo\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\SingletonPattern.csproj": {}
+    "G:\\git\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\SingletonPattern.csproj": {}
   },
   "projects": {
-    "E:\\C#\\C# training\\Design pattern and OOP\\git repo\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\SingletonPattern.csproj": {
+    "G:\\git\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\SingletonPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\C# training\\Design pattern and OOP\\git repo\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\SingletonPattern.csproj",
+        "projectUniqueName": "G:\\git\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\SingletonPattern.csproj",
         "projectName": "SingletonPattern",
-        "projectPath": "E:\\C#\\C# training\\Design pattern and OOP\\git repo\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\SingletonPattern.csproj",
+        "projectPath": "G:\\git\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\SingletonPattern.csproj",
         "packagesPath": "C:\\Users\\shuvo\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\C# training\\Design pattern and OOP\\git repo\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\obj\\",
+        "outputPath": "G:\\git\\cs-training\\Design Pattern Tutorial\\SingletonPattern\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -41,14 +38,6 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
-            "Autofac": {
-              "target": "Package",
-              "version": "[4.9.4, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.12.0, )"
-            },
             "morelinq": {
               "target": "Package",
               "version": "[3.2.0, )"
