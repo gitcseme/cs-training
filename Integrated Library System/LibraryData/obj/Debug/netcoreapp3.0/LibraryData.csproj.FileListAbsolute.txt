@@ -18,3 +18,13 @@ G:\git\Integrated-Library-System\Integrated Library System\LibraryData\obj\Debug
 G:\git\Integrated-Library-System\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.dll
 G:\git\Integrated-Library-System\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.pdb
 G:\git\Integrated-Library-System\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.csprojAssemblyReference.cache
+G:\git\cs-training\Integrated Library System\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.deps.json
+G:\git\cs-training\Integrated Library System\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.runtimeconfig.json
+G:\git\cs-training\Integrated Library System\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.runtimeconfig.dev.json
+G:\git\cs-training\Integrated Library System\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.dll
+G:\git\cs-training\Integrated Library System\LibraryData\bin\Debug\netcoreapp3.0\LibraryData.pdb
+G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.csprojAssemblyReference.cache
+G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.AssemblyInfoInputs.cache
+G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.AssemblyInfo.cs
+G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.dll
+G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.pdb

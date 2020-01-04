@@ -144,7 +144,9 @@ padding: 4px;
 }
 
 #catalog {
-background: url('/images/books.jpg') bottom right 15% no-repeat #555;
+    background: url('/images/books.jpg');
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
 }
 
 #catalogIndexTable {
@@ -160,7 +162,9 @@ background-color: #eee;
 }
 
 #patrons {
-background: url('/images/patron.jpeg') bottom left 15% no-repeat #555;
+    background: url('/images/patron.jpg');
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
 }
 
 .branchInfo {
@@ -168,7 +172,9 @@ padding-top: 30px;
 }
 
 #branches {
-background: url('/images/bldg.jpeg') bottom right 15% no-repeat #555;
+    background: url('/images/branch.jpeg');
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
 }
 
 #assets {

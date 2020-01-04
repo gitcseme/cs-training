@@ -163,7 +163,6 @@ G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Raz
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Catalog\Hold.cshtml.g.cs
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Catalog\Index.cshtml.g.cs
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
-G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
