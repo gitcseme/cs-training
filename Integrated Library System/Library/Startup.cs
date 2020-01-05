@@ -21,10 +21,11 @@ namespace Library
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
-            //services.AddSingleton(Configuration); -- later if needed
+            services.AddMvc();
+            services.AddSingleton(Configuration);
             services.AddScoped<ILibraryAsset, LibraryAssetService>();
             services.AddScoped<ICheckout, CheckoutService>();
+            services.AddScoped<IPatron, PatronService>();
 
             services.AddDbContext<LibraryContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
