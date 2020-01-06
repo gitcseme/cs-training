@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Library.ViewModels.Patron;
 using LibraryData;
+using LibraryData.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Library.Controllers
@@ -33,6 +34,28 @@ namespace Library.Controllers
 
             var model = new PatronIndexModel() { Patrons = patronModels };
             
+            return View(model);
+        }
+
+        public IActionResult Detail(int patronId)
+        {
+            var patron = _patron.Get(patronId);
+
+            var model = new PatronDetaiModel
+            {
+                FirstName = patron.FirstName,
+                LastName = patron.LastName,
+                Address = patron.Address,
+                HomeLibraryBranch = patron.HomeLibraryBranch.Name,
+                MemberSince = patron.LibraryCard.Created,
+                OverdueFees = patron.LibraryCard.Fees,
+                LibraryCardId = patron.LibraryCard.Id,
+                Telephone = patron.TelephoneNumber,
+                AssetsCheckedout = _patron.GetCheckouts(patronId).ToList() ?? new List<Checkout>(),
+                CheckoutHistories = _patron.GetCheckoutHistories(patronId),
+                Holds = _patron.GetHolds(patronId)
+            };
+
             return View(model);
         }
     }

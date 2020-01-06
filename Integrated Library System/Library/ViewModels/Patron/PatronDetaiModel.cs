@@ -23,7 +23,7 @@ namespace Library.ViewModels.Patron
         public string Telephone { get; set; }
         public string HomeLibraryBranch { get; set; }
         
-        public IEnumerable<Checkout> AssetsCheckout { get; set; }
+        public IEnumerable<Checkout> AssetsCheckedout { get; set; }
         public IEnumerable<CheckoutHistory> CheckoutHistories { get; set; }
         public IEnumerable<Hold> Holds { get; set; }
     }

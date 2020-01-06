@@ -71,7 +71,9 @@ body {
 }
 */
 
-
+#catalogIndexTable thead tr th {
+    text-align: center;
+}
 
 /****** Main CSS */
 .logo {
