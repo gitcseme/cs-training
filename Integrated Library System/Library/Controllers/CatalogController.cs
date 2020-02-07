@@ -21,12 +21,12 @@ namespace Library.Controllers
         public ILibraryAsset _Assets { get; }
         public ICheckout _Checkouts { get; }
 
-        public IActionResult Index()
+        public IActionResult Index(string searchText)
         {
             var assetModel = _Assets.GetAll();
             var listingResult = assetModel
-                .Select(result => new AssetIndexListingModel 
-                { 
+                .Select(result => new AssetIndexListingModel
+                {
                     Id = result.Id,
                     ImageUrl = result.ImageUrl,
                     AuthorOrDiretor = _Assets.GetAuthorOrDirector(result.Id),
@@ -34,6 +34,13 @@ namespace Library.Controllers
                     Title = result.Title,
                     Type = _Assets.GetType(result.Id)
                 });
+            
+            if (searchText != null)
+            {
+                listingResult = listingResult.Where(data => data.Title.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+                                data.AuthorOrDiretor.Contains(searchText, StringComparison.OrdinalIgnoreCase) ||
+                                data.DeweyCallNumber.Contains(searchText, StringComparison.OrdinalIgnoreCase));
+            }
 
             var model = new AssetIndexModel()
             {

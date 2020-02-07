@@ -2,6 +2,11 @@
 
 <div id="assets">
     <h3>Library Catalog</h3>
+    <div class="searchCatalogTable">
+        <form asp-controller="Catalog" asp-action="Index" method="Get">
+            @Html.TextBox("searchText")<input type="submit" value="Search" />
+        </form>
+    </div>
     <div id="assetsTable">
         <table class="table table-condensed" id="catalogIndexTable">
             <thead>
@@ -12,21 +17,35 @@
                     <th>Dewey Call Number</th>
                 </tr>
             </thead>
+            @{
+                bool found = true;
+            }
             <tbody>
-                @foreach (var asset in Model.Assets)
+                @if (Model.Assets.Any())
                 {
-                    <tr class="assetRow">
-                        <td>
-                            <a asp-controller="Catalog" asp-action="Details" asp-route-id="@asset.Id">
-                                <img src="@asset.ImageUrl" class="imageCell"/>
-                            </a>
-                        </td>
-                        <td>@asset.Title</td>
-                        <td>@asset.AuthorOrDiretor</td>
-                        <td>@asset.DeweyCallNumber</td>
-                    </tr>
+                    @foreach (var asset in Model.Assets)
+                    {
+                        <tr class="assetRow">
+                            <td>
+                                <a asp-controller="Catalog" asp-action="Details" asp-route-id="@asset.Id">
+                                    <img src="@asset.ImageUrl" class="imageCell" />
+                                </a>
+                            </td>
+                            <td>@asset.Title</td>
+                            <td>@asset.AuthorOrDiretor</td>
+                            <td>@asset.DeweyCallNumber</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    found = false;
                 }
             </tbody>
         </table>
+        @if (!found)
+        {
+            <p class="text-danger" style="font-size:30px; margin-top:50px">No Matching Records Found</p>
+        }
     </div>
 </div>

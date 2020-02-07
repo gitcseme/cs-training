@@ -151,6 +151,16 @@ padding: 4px;
     background-size: 320px 100%;
 }
 
+.searchCatalogTable {
+    float: right;
+    margin-bottom: 10px;
+}
+
+#searchText {
+    width: 230px;
+    background-color: powderblue;
+}
+
 #catalogIndexTable {
 font-size: 1.3em;
 }
@@ -174,9 +184,9 @@ padding-top: 30px;
 }
 
 #branches {
-    background: url('/images/branch.jpeg');
+    background: url('/images/branch.jpg');
     background-repeat: no-repeat;
-    background-size: 320px 100%;
+    /*background-size: 320px 100%;*/
 }
 
 #assets {

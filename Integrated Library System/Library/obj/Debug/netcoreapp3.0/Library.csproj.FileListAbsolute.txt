@@ -249,3 +249,5 @@ G:\git\cs-training\Integrated Library System\Library\bin\Debug\netcoreapp3.0\zh-
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Library.MvcApplicationPartsAssemblyInfo.cache
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Patron\Index.cshtml.g.cs
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Patron\Detail.cshtml.g.cs
+G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Branch\Index.cshtml.g.cs
+G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Branch\Detail.cshtml.g.cs
