@@ -1,12 +1,18 @@
 ﻿using LibraryData.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace LibraryData
 {
-    public class LibraryContext : DbContext
+    public class LibraryContext : IdentityDbContext
     {
         public LibraryContext(DbContextOptions options) : base(options) { }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Video> Videos { get; set; }

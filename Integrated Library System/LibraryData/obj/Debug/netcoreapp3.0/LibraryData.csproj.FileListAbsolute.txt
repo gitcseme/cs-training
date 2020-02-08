@@ -27,3 +27,4 @@ G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0
 G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.AssemblyInfo.cs
 G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.dll
 G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.pdb
+G:\git\cs-training\Integrated Library System\LibraryData\obj\Debug\netcoreapp3.0\LibraryData.csprojAssemblyReference.cache
