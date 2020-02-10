@@ -252,3 +252,10 @@ G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Raz
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Branch\Index.cshtml.g.cs
 G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Branch\Detail.cshtml.g.cs
 G:\git\cs-training\Integrated Library System\Library\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Account\Register.cshtml.g.cs
+G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Account\Login.cshtml.g.cs
+G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Administration\CreateRole.cshtml.g.cs
+G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditRole.cshtml.g.cs
+G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
+G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Administration\ListRoles.cshtml.g.cs
+G:\git\cs-training\Integrated Library System\Library\obj\Debug\netcoreapp3.0\Razor\Views\Account\AccessDenied.cshtml.g.cs

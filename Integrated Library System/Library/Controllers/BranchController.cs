@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 using Library.ViewModels.Branch;
 using LibraryData;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Library.Controllers
 {
+    [Authorize]
     public class BranchController : Controller
     {
         public BranchController(ILibraryBranch libbraryBranch)

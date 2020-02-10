@@ -4,6 +4,7 @@ using System.Linq;
 using Library.ViewModels.Catalog;
 using Library.ViewModels.CheckoutModels;
 using LibraryData;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -50,6 +51,7 @@ namespace Library.Controllers
             return View(model);
         }
 
+        [Authorize(Roles = "Admin,Manager")]
         public IActionResult Details(int id)
         {
             var asset = _Assets.GetById(id);

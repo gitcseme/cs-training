@@ -5,10 +5,12 @@ using System.Threading.Tasks;
 using Library.ViewModels.Patron;
 using LibraryData;
 using LibraryData.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Library.Controllers
 {
+    [Authorize]
     public class PatronController : Controller
     {
         public PatronController(IPatron patron)
@@ -37,6 +39,7 @@ namespace Library.Controllers
             return View(model);
         }
 
+        [Authorize(Roles = "Admin")]
         public IActionResult Detail(int patronId)
         {
             var patron = _patron.Get(patronId);

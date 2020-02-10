@@ -1,4 +1,8 @@
 ﻿<!DOCTYPE html>
+
+@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> SignInManager;
+
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -29,18 +33,25 @@
                     <a class="mdl-navigation__link" asp-controller="Catalog" asp-action="Index">Catalog</a>
                     <a class="mdl-navigation__link" asp-controller="Patron" asp-action="Index">Patrons</a>
                     <a class="mdl-navigation__link" asp-controller="Branch" asp-action="Index">Branches</a>
+
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <form method="post" asp-action="Logout" asp-controller="Account">
+                            <button type="submit" class="nav-link btn-link btn">Logout: @User.Identity.Name</button>
+                        </form>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a class="mdl-navigation__link" asp-controller="Administration" asp-action="ListRoles">Manage Roles</a>
+                        }
+                    }
+                    else
+                    {
+                        <a class="mdl-navigation__link" asp-controller="Account" asp-action="Register">Register</a>
+                        <a class="mdl-navigation__link" asp-controller="Account" asp-action="Login">Login</a>
+                    }
                 </nav>
             </div>
         </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Integrated Library System</span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" asp-controller="Home" asp-action="Index">Home</a>
-                <a class="mdl-navigation__link" asp-controller="Catalog" asp-action="Index">Catalog</a>
-                <a class="mdl-navigation__link" asp-controller="Patron" asp-action="Index">Patrons</a>
-                <a class="mdl-navigation__link" asp-controller="Branch" asp-action="Index">Branches</a>
-            </nav>
-        </div>
         <div class="page-content">
             @RenderBody()
         </div>
