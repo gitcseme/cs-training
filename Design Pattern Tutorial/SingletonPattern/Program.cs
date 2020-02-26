@@ -26,13 +26,16 @@ namespace SingletonPattern
                 );
         }
 
-        public void PrintDetails()
+        // <me>
+        private static SingletonDatabase DbInstance;
+        public static SingletonDatabase GetDatabaseInstance()
         {
-            foreach (var item in Capitals)
-            {
-                Console.WriteLine($"{item.Key}: {item.Value}");
+            if (DbInstance == null) {
+                DbInstance = new SingletonDatabase();
             }
+            return DbInstance;
         }
+        // </me>
 
         public int GetPopulation(string name)
         {
@@ -50,9 +53,12 @@ namespace SingletonPattern
         {
             SingletonDatabase db = SingletonDatabase.Instance;
             var city = "Tokyo";
+
+            SingletonDatabase db2 = SingletonDatabase.Instance;
+
             var city2 = "Delhi";
             Console.WriteLine($"{city}: {db.GetPopulation(city)}");
-            Console.WriteLine($"{city2}: {db.GetPopulation(city2)}");
+            Console.WriteLine($"{city2}: {db2.GetPopulation(city2)}");
         }
     }
 }

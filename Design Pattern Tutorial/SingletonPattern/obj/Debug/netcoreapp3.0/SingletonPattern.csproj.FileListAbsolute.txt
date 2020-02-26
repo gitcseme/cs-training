@@ -14,3 +14,17 @@ E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tut
 E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\nunit.framework.dll
 E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.dll
 E:\C#\C# training\Design pattern and OOP\git repo\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.pdb
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\capitals.txt
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.exe
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.deps.json
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.runtimeconfig.json
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.runtimeconfig.dev.json
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.dll
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\SingletonPattern.pdb
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\bin\Debug\netcoreapp3.0\MoreLinq.dll
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.csprojAssemblyReference.cache
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.AssemblyInfoInputs.cache
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.AssemblyInfo.cs
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.csproj.CopyComplete
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.dll
+G:\git\cs-training\Design Pattern Tutorial\SingletonPattern\obj\Debug\netcoreapp3.0\SingletonPattern.pdb
