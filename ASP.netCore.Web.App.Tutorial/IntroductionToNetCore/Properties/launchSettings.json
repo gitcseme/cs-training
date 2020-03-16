@@ -1,10 +1,10 @@
-﻿{
+{
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:8760",
-      "sslPort": 0
+      "applicationUrl": "https://localhost:44315/",
+      "sslPort": 44315
     }
   },
   "profiles": {
@@ -12,17 +12,17 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "MyKey": "Value of MyKey mapped in Environment variable in launchSettings.jason"
+        "MyKey": "Value of MyKey mapped in Environment variable in launchSettings.jason",
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "IntroductionToNetCore": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:5000"
     }
   }
 }

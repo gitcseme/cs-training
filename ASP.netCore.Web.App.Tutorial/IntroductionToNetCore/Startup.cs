@@ -42,12 +42,26 @@ namespace IntroductionToNetCore
                 options.Password.RequireNonAlphanumeric = false;
             });
 
-            services.AddMvc(options => {
+            services.AddMvc(options =>
+            {
                 var policy = new AuthorizationPolicyBuilder()
                                 .RequireAuthenticatedUser()
                                 .Build();
                 options.Filters.Add(new AuthorizeFilter(policy));
             });
+
+            // External Identity Provider
+            services.AddAuthentication()
+                .AddGoogle(options => 
+                {
+                    options.ClientId = "863547247076-741fn0emhkk1ji5l1f5evsfv8rsen91o.apps.googleusercontent.com";
+                    options.ClientSecret = "uqV0OCMmBhsPM8J08toE-1wo";
+                })
+                .AddFacebook(options =>
+                {
+                    options.ClientId = "225745201880028";
+                    options.ClientSecret = "aa313bbe7b5497d17d26191ed0ce3289";
+                });
 
             services.AddAuthorization(options =>
             {
