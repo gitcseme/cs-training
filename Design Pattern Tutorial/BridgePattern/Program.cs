@@ -3,7 +3,7 @@
 namespace BridgePattern
 {
     /*
-     GOF => Bridge allows to decuples an abstruction from its implementation 
+     G.O.F. => Bridge allows to decuples an abstruction from its implementation 
             so that the two can vary independently.
      */
 
