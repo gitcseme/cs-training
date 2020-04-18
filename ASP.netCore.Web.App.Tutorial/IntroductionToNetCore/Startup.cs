@@ -32,7 +32,9 @@ namespace IntroductionToNetCore
             services.AddDbContextPool<EmployeeDBContext>(options => 
                 options.UseSqlServer(configuration.GetConnectionString("DbConnection")));
 
-            services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<EmployeeDBContext>();
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<EmployeeDBContext>()
+                .AddDefaultTokenProviders();
 
             // Default password options override
             services.Configure<IdentityOptions>(options => 
@@ -40,10 +42,13 @@ namespace IntroductionToNetCore
                 options.Password.RequiredLength = 7;
                 options.Password.RequiredUniqueChars = 3;
                 options.Password.RequireNonAlphanumeric = false;
+
+                options.SignIn.RequireConfirmedEmail = true;
             });
 
             services.AddMvc(options =>
             {
+                // Applying authorization to all controllers. [Global authorization]
                 var policy = new AuthorizationPolicyBuilder()
                                 .RequireAuthenticatedUser()
                                 .Build();

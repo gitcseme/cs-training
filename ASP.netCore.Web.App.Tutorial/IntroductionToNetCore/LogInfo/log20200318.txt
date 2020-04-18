@@ -1,0 +1,3 @@
+2020-03-18 05:16:04.255 +06:00 [inf] Application starts successfully
+2020-03-18 05:16:36.524 +06:00 [inf] https://localhost:44315/Account/ConfirmEmail?userId=d797f1ef-10c7-48fc-8520-be4946e8b6b6&token=CfDJ8EQCdjc9Y55Dhjz32WWTGQ%2B4e0q0xYrTi%2BTcLFUynefoa8%2Bn48TxCxGAAKf9UctcdS%2BtzPeUFMref7J%2BM%2FgJmDJpiYOucJMD%2B1ku2QODLNo2mJYICfb2bN7teBL8gMa190DYZyxl3%2FzBRI11wNep7zzpJZyRkf5WNkuuCVJNbk5xmRD63wmZj6oEEbce2CVyVMw4xjnIBCJ65MZu5tpu1JAjy4qOKqUTWiMx6ankEkQ4nZz863AUwck1uyqKcYroSg%3D%3D
+2020-03-18 05:19:28.806 +06:00 [inf] Application starts successfully

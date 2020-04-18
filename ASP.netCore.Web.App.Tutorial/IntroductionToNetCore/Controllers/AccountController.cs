@@ -8,6 +8,8 @@ using IntroductionToNetCore.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Serilog;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,14 +17,16 @@ namespace IntroductionToNetCore.Controllers
 {
     public class AccountController : Controller
     {
-        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ILogger<AccountController> logger)
         {
             UserManager = userManager;
             SignInManager = signInManager;
+            _logger = logger;
         }
 
         public UserManager<ApplicationUser> UserManager { get; }
         public SignInManager<ApplicationUser> SignInManager { get; }
+        public ILogger<AccountController> _logger { get; }
 
         [HttpGet]
         [AllowAnonymous]
@@ -47,13 +51,19 @@ namespace IntroductionToNetCore.Controllers
 
                 if (result.Succeeded)
                 {
+                    var token = await UserManager.GenerateEmailConfirmationTokenAsync(user);
+                    var confirmationLink = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, token = token }, Request.Scheme);
+
+                    Log.Information(confirmationLink); // Useing log file instead of Email now.
+
                     if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
                     {
                         return RedirectToAction("ListUsers", "Administration");
                     }
 
-                    await SignInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("index", "home");
+                    ViewBag.ErrorTitle = "Registration is successfull";
+                    ViewBag.ErrorMessage = "Click the confirmation link to confirm email for login in system";
+                    return View("Error");
                 }
 
                 foreach (var error in result.Errors)
@@ -64,6 +74,27 @@ namespace IntroductionToNetCore.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            if (userId == null && token == null)
+                return RedirectToAction("Index", "Home");
+
+            var user = await UserManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = $"The user ID {userId} is invalid";
+                return View("NotFound");
+            }
+
+            var result = await UserManager.ConfirmEmailAsync(user, token);
+            if (result.Succeeded)
+                return View();
+
+            ViewBag.ErrorTitle = "Email can not confirmed";
+            return View("Error");
+        }
 
         [HttpGet]
         [AllowAnonymous]
@@ -82,10 +113,18 @@ namespace IntroductionToNetCore.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Login(LoginViewModel model, string returnUrl)
         {
+            model.ExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
             if (ModelState.IsValid)
             {
-                var result = await SignInManager.
-                    PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+                var user = await UserManager.FindByEmailAsync(model.Email);
+                if (user != null && !user.EmailConfirmed && (await UserManager.CheckPasswordAsync(user, model.Password)))
+                {
+                    ModelState.AddModelError(string.Empty, "Email not confirmed yet");
+                    return View(model);
+                }
+
+                var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
 
                 if (result.Succeeded)
                 {
@@ -136,11 +175,11 @@ namespace IntroductionToNetCore.Controllers
             var redirectUrl = Url.Action("ExternalLoginCallback", "Account", new { ReturnUrl = returnUrl });
 
             var properties = SignInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
-            return new ChallengeResult(provider, properties);
+            return new ChallengeResult(provider, properties); // take us to google signin page.
         }
 
         [AllowAnonymous]
-        public async Task<IActionResult> ExternalLoginCallback(string returnUrl = null, string remoteError = null)
+        public async Task<IActionResult> ExternalLoginCallback(string returnUrl = null, string remoteError = null) // Google call this method.
         {
             returnUrl = returnUrl ?? Url.Content("~/");
 
@@ -156,15 +195,29 @@ namespace IntroductionToNetCore.Controllers
                 return View("Login", loginViewModel);
             }
 
-            var userInfo = await SignInManager.GetExternalLoginInfoAsync();
+            var userInfo = await SignInManager.GetExternalLoginInfoAsync(); // Google gives userInfo
             if (userInfo == null)
             {
                 ModelState.AddModelError("", "Error loading external login information");
                 return View("Login", loginViewModel);
             }
 
+            var email = userInfo.Principal.FindFirstValue(ClaimTypes.Email);
+            ApplicationUser user = null;
+            
+            if (email != null)
+            {
+                user = await UserManager.FindByEmailAsync(email);
+                if (user != null && !user.EmailConfirmed)
+                {
+                    ModelState.AddModelError(string.Empty, "Email not confirmed yet");
+                    return View("Login", loginViewModel);
+                }
+            }
+
+
             var signinResult = await SignInManager.ExternalLoginSignInAsync(userInfo.LoginProvider, userInfo.ProviderKey, 
-                isPersistent: false, bypassTwoFactor: true);
+                isPersistent: false, bypassTwoFactor: true); // Check AspNetUserLogin table to find corresponding entry to sign the user in.
 
             if (signinResult.Succeeded)
             {
@@ -172,19 +225,16 @@ namespace IntroductionToNetCore.Controllers
             }
             else
             {
-                var email = userInfo.Principal.FindFirstValue(ClaimTypes.Email);
                 if (email != null) // user has local account?
                 {
-                    var user = await UserManager.FindByEmailAsync(email);
-
                     if (user == null) // no local user account found
                     {
                         user = new ApplicationUser { UserName = email, Email = email };
-                        await UserManager.CreateAsync(user);
+                        await UserManager.CreateAsync(user); // Create new user to AspNetUsers table
                     }
 
-                    await UserManager.AddLoginAsync(user, userInfo);
-                    await SignInManager.SignInAsync(user, isPersistent: false);
+                    await UserManager.AddLoginAsync(user, userInfo); // Add user entry to AspNetUserLogin table.
+                    await SignInManager.SignInAsync(user, isPersistent: false); // sign the user in.
 
                     return LocalRedirect(returnUrl);
                 }

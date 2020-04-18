@@ -98,3 +98,6 @@ G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ManageUserRoles.cshtml.g.cs
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ManageUserClaims.cshtml.g.cs
 G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\IntroductionToNetCore.csprojAssemblyReference.cache
+G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\IntroductionToNetCore.csproj.CoreCompileInputs.cache
+G:\git\cs-training\ASP.netCore.Web.App.Tutorial\IntroductionToNetCore\obj\Debug\netcoreapp2.2\IntroductionToNetCore.genruntimeconfig.cache

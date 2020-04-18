@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <UserSecretsId>9e11df5d-1afa-4b58-9f6d-2ac5cc75c251</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,11 +17,16 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\js\CustomJavaScript.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LogInfo\" />
   </ItemGroup>
 
 </Project>
