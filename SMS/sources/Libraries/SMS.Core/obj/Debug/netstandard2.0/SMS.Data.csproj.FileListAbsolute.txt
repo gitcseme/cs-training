@@ -1,8 +1,0 @@
-G:\Test\SMS\sources\Libraries\SMS.Data\bin\Debug\netstandard2.0\SMS.Data.deps.json
-G:\Test\SMS\sources\Libraries\SMS.Data\bin\Debug\netstandard2.0\SMS.Data.dll
-G:\Test\SMS\sources\Libraries\SMS.Data\obj\Debug\netstandard2.0\SMS.Data.csprojAssemblyReference.cache
-G:\Test\SMS\sources\Libraries\SMS.Data\obj\Debug\netstandard2.0\SMS.Data.AssemblyInfoInputs.cache
-G:\Test\SMS\sources\Libraries\SMS.Data\obj\Debug\netstandard2.0\SMS.Data.AssemblyInfo.cs
-G:\Test\SMS\sources\Libraries\SMS.Data\bin\Debug\netstandard2.0\SMS.Data.pdb
-G:\Test\SMS\sources\Libraries\SMS.Data\obj\Debug\netstandard2.0\SMS.Data.dll
-G:\Test\SMS\sources\Libraries\SMS.Data\obj\Debug\netstandard2.0\SMS.Data.pdb
