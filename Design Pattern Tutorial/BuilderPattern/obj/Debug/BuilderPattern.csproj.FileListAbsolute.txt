@@ -1,6 +1,0 @@
-G:\git\cs-training\Design Pattern Tutorial\BuilderPattern\bin\Debug\BuilderPattern.exe.config
-G:\git\cs-training\Design Pattern Tutorial\BuilderPattern\bin\Debug\BuilderPattern.exe
-G:\git\cs-training\Design Pattern Tutorial\BuilderPattern\bin\Debug\BuilderPattern.pdb
-G:\git\cs-training\Design Pattern Tutorial\BuilderPattern\obj\Debug\BuilderPattern.exe
-G:\git\cs-training\Design Pattern Tutorial\BuilderPattern\obj\Debug\BuilderPattern.pdb
-G:\git\cs-training\Design Pattern Tutorial\BuilderPattern\obj\Debug\BuilderPattern.csprojAssemblyReference.cache

@@ -1,9 +1,0 @@
-C:\Users\shuvo\source\repos\Design Pattern Tutorial\SOLID\bin\Debug\SOLID.exe.config
-C:\Users\shuvo\source\repos\Design Pattern Tutorial\SOLID\bin\Debug\SOLID.exe
-C:\Users\shuvo\source\repos\Design Pattern Tutorial\SOLID\bin\Debug\SOLID.pdb
-C:\Users\shuvo\source\repos\Design Pattern Tutorial\SOLID\obj\Debug\SOLID.csprojAssemblyReference.cache
-C:\Users\shuvo\source\repos\Design Pattern Tutorial\SOLID\obj\Debug\SOLID.exe
-C:\Users\shuvo\source\repos\Design Pattern Tutorial\SOLID\obj\Debug\SOLID.pdb
-G:\git\cs-training\Design Pattern Tutorial\SOLID\obj\Debug\SOLID.csprojAssemblyReference.cache
-G:\git\cs-training\Design Pattern Tutorial\SOLID\obj\Debug\SOLID.exe
-G:\git\cs-training\Design Pattern Tutorial\SOLID\obj\Debug\SOLID.pdb
