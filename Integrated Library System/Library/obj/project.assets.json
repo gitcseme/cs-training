@@ -8264,7 +8264,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shuvo\\.nuget\\packages\\": {}
+    "C:\\Users\\Shuvo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -8272,11 +8272,11 @@
       "projectUniqueName": "G:\\git\\cs-training\\Integrated Library System\\Library\\Library.csproj",
       "projectName": "Library",
       "projectPath": "G:\\git\\cs-training\\Integrated Library System\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\shuvo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Shuvo\\.nuget\\packages\\",
       "outputPath": "G:\\git\\cs-training\\Integrated Library System\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8347,7 +8347,7 @@
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.0.2, 3.0.2]"
+            "version": "[3.0.3, 3.0.3]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
@@ -8366,7 +8366,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

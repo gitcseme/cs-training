@@ -10,11 +10,11 @@
         "projectUniqueName": "G:\\git\\cs-training\\Integrated Library System\\LibraryData\\LibraryData.csproj",
         "projectName": "LibraryData",
         "projectPath": "G:\\git\\cs-training\\Integrated Library System\\LibraryData\\LibraryData.csproj",
-        "packagesPath": "C:\\Users\\shuvo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Shuvo\\.nuget\\packages\\",
         "outputPath": "G:\\git\\cs-training\\Integrated Library System\\LibraryData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -96,11 +96,11 @@
         "projectUniqueName": "G:\\git\\cs-training\\Integrated Library System\\LibraryService\\LibraryService.csproj",
         "projectName": "LibraryService",
         "projectPath": "G:\\git\\cs-training\\Integrated Library System\\LibraryService\\LibraryService.csproj",
-        "packagesPath": "C:\\Users\\shuvo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Shuvo\\.nuget\\packages\\",
         "outputPath": "G:\\git\\cs-training\\Integrated Library System\\LibraryService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -166,11 +166,11 @@
         "projectUniqueName": "G:\\git\\cs-training\\Integrated Library System\\Library\\Library.csproj",
         "projectName": "Library",
         "projectPath": "G:\\git\\cs-training\\Integrated Library System\\Library\\Library.csproj",
-        "packagesPath": "C:\\Users\\shuvo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Shuvo\\.nuget\\packages\\",
         "outputPath": "G:\\git\\cs-training\\Integrated Library System\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shuvo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -241,7 +241,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.2, 3.0.2]"
+              "version": "[3.0.3, 3.0.3]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -260,7 +260,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
