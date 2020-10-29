@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AlienUsername.cs" />
+    <Compile Remove="DetectEmailAddress.cs" />
+    <Compile Remove="Detect_DomainName.cs" />
+    <Compile Remove="Find_a_word.cs" />
+    <Compile Remove="Find_hackerrank.cs" />
+    <Compile Remove="Hackerrank_Language.cs" />
+    <Compile Remove="Hackerrank_Tweets.cs" />
+    <Compile Remove="HTML_Attributes.cs" />
+    <Compile Remove="HTML_links.cs" />
+    <Compile Remove="HTML_tag.cs" />
+    <Compile Remove="IP_AddressValidation.cs" />
+    <Compile Remove="Saying_Hi.cs" />
+    <Compile Remove="Split_PhoneNumber.cs" />
+    <Compile Remove="Stack_Exchange_Scraper.cs" />
+    <Compile Remove="Sub_Word.cs" />
+    <Compile Remove="UtopianIdentificationNumber.cs" />
+    <Compile Remove="Valid_PAN_format.cs" />
+  </ItemGroup>
+
+</Project>

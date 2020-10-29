@@ -1,0 +1,13 @@
+G:\Test\Hackerrank\Regex_problems\bin\Debug\netcoreapp3.1\Regex_problems.exe
+G:\Test\Hackerrank\Regex_problems\bin\Debug\netcoreapp3.1\Regex_problems.deps.json
+G:\Test\Hackerrank\Regex_problems\bin\Debug\netcoreapp3.1\Regex_problems.runtimeconfig.json
+G:\Test\Hackerrank\Regex_problems\bin\Debug\netcoreapp3.1\Regex_problems.runtimeconfig.dev.json
+G:\Test\Hackerrank\Regex_problems\bin\Debug\netcoreapp3.1\Regex_problems.dll
+G:\Test\Hackerrank\Regex_problems\bin\Debug\netcoreapp3.1\Regex_problems.pdb
+G:\Test\Hackerrank\Regex_problems\obj\Debug\netcoreapp3.1\Regex_problems.csprojAssemblyReference.cache
+G:\Test\Hackerrank\Regex_problems\obj\Debug\netcoreapp3.1\Regex_problems.AssemblyInfoInputs.cache
+G:\Test\Hackerrank\Regex_problems\obj\Debug\netcoreapp3.1\Regex_problems.AssemblyInfo.cs
+G:\Test\Hackerrank\Regex_problems\obj\Debug\netcoreapp3.1\Regex_problems.csproj.CoreCompileInputs.cache
+G:\Test\Hackerrank\Regex_problems\obj\Debug\netcoreapp3.1\Regex_problems.dll
+G:\Test\Hackerrank\Regex_problems\obj\Debug\netcoreapp3.1\Regex_problems.pdb
+G:\Test\Hackerrank\Regex_problems\obj\Debug\netcoreapp3.1\Regex_problems.genruntimeconfig.cache
