@@ -1,0 +1,13 @@
+G:\git\cs-training\Event_DeligateDemo\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.exe
+G:\git\cs-training\Event_DeligateDemo\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.deps.json
+G:\git\cs-training\Event_DeligateDemo\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.runtimeconfig.json
+G:\git\cs-training\Event_DeligateDemo\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.runtimeconfig.dev.json
+G:\git\cs-training\Event_DeligateDemo\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.dll
+G:\git\cs-training\Event_DeligateDemo\DemoApp\bin\Debug\netcoreapp3.1\DemoApp.pdb
+G:\git\cs-training\Event_DeligateDemo\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.csprojAssemblyReference.cache
+G:\git\cs-training\Event_DeligateDemo\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.AssemblyInfoInputs.cache
+G:\git\cs-training\Event_DeligateDemo\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.AssemblyInfo.cs
+G:\git\cs-training\Event_DeligateDemo\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.csproj.CoreCompileInputs.cache
+G:\git\cs-training\Event_DeligateDemo\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.dll
+G:\git\cs-training\Event_DeligateDemo\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.pdb
+G:\git\cs-training\Event_DeligateDemo\DemoApp\obj\Debug\netcoreapp3.1\DemoApp.genruntimeconfig.cache
