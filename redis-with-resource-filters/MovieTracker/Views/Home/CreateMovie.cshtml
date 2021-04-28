@@ -1,0 +1,20 @@
+@model MovieTracker.Models.MovieCreateViewModel
+
+<div class="row">
+    <div class="col-md-6 offset-3">
+        <form action="CreateMovie" method="post">
+            <div class="form-group">
+                <label asp-for="Name">Movie Name</label>
+                <div class="name-field">
+                    <input asp-for="Name" type="text" class="form-control">
+                </div>
+
+                <label asp-for="Image">Image Url</label>
+                <div class="image-url">
+                    <input asp-for="Image" type="text" class="form-control">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+﻿@model List<MovieData.Entities.Movie>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <hr>
+
+    @if (Model != null) 
+    {
+        @foreach (var movie in Model)
+        {
+            <div class="row mt-3">
+                <div class="card">
+                    <img src="@movie.Image" alt="movie banner" class="image-responsive" height="150px" width="200px">
+                </div>
+                <div class="card" style="width: 600px;">
+                    <div class="card-header">
+                        <h3>@movie.Name</h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in movie.Actors)
+                                {
+                                    <tr>
+                                        <th scope="row">@item.Id.ToString()</th>
+                                        <td>@item.Name</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>   
+        }
+    }
+    
+
+</div>
